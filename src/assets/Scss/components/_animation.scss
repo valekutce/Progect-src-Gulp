@@ -1,0 +1,297 @@
+.animation-delay-100.element-schow {
+  -webkit-transition-delay: 100ms;
+       -o-transition-delay: 100ms;
+          transition-delay: 100ms;
+}
+
+.animation-delay-300.element-schow {
+  -webkit-transition-delay: 300ms;
+       -o-transition-delay: 300ms;
+          transition-delay: 300ms;
+}
+
+.animation-delay-600.element-schow {
+  -webkit-transition-delay: 600ms;
+       -o-transition-delay: 600ms;
+          transition-delay: 600ms;
+}
+
+.animation-delay-700.element-schow {
+  -webkit-transition-delay: 700ms;
+       -o-transition-delay: 700ms;
+          transition-delay: 700ms;
+}
+
+.animation-delay-800.element-schow {
+  -webkit-transition-delay: 800ms;
+       -o-transition-delay: 800ms;
+          transition-delay: 800ms;
+}
+
+.cubic-bezier {
+  -webkit-transition-timing-function: cubic-bezier(0, 1.38, 0.84, 0.92);
+       -o-transition-timing-function: cubic-bezier(0, 1.38, 0.84, 0.92);
+          transition-timing-function: cubic-bezier(0, 1.38, 0.84, 0.92);
+}
+
+.schow-top-animation.element-animation {
+  opacity: 0;
+  -webkit-transform: translateY(40px);
+      -ms-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1.5s;
+       -o-transition-duration: 1.5s;
+          transition-duration: 1.5s;
+}
+
+.schow-top-animation.element-animation.element-schow {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.rotate-left-to-right.element-animation {
+  opacity: 0;
+  -webkit-transform: rotate(-5deg) translateY(10px);
+      -ms-transform: rotate(-5deg) translateY(10px);
+          transform: rotate(-5deg) translateY(10px);
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.rotate-left-to-right.element-animation.element-schow {
+  opacity: 1;
+  -webkit-transform: rotate(0deg) translateY(0px);
+      -ms-transform: rotate(0deg) translateY(0px);
+          transform: rotate(0deg) translateY(0px);
+}
+
+.rotate-right-to-left.element-animation {
+  opacity: 0;
+  -webkit-transform: rotate(5deg) translateY(10px);
+      -ms-transform: rotate(5deg) translateY(10px);
+          transform: rotate(5deg) translateY(10px);
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.rotate-right-to-left.element-animation.element-schow {
+  opacity: 1;
+  -webkit-transform: rotate(0deg) translateY(0px);
+      -ms-transform: rotate(0deg) translateY(0px);
+          transform: rotate(0deg) translateY(0px);
+}
+
+.half-turn-from-right-to-top.element-animation {
+  -webkit-transform: rotate(10deg) translateY(10px);
+      -ms-transform: rotate(10deg) translateY(10px);
+          transform: rotate(10deg) translateY(10px);
+  -webkit-transform-origin: left top;
+      -ms-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.half-turn-from-right-to-top.element-animation.element-schow {
+  -webkit-transform: rotate(0deg) translateY(10px);
+      -ms-transform: rotate(0deg) translateY(10px);
+          transform: rotate(0deg) translateY(10px);
+}
+
+.half-turn-from-right-to-bottom.element-animation {
+  -webkit-transform: rotate(0deg) translateY(0px);
+      -ms-transform: rotate(0deg) translateY(0px);
+          transform: rotate(0deg) translateY(0px);
+  -webkit-transform-origin: left top;
+      -ms-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.half-turn-from-right-to-bottom.element-animation.element-schow {
+  -webkit-transform: rotate(10deg) translateY(10px);
+      -ms-transform: rotate(10deg) translateY(10px);
+          transform: rotate(10deg) translateY(10px);
+}
+
+.schow-left-to-right.element-animation {
+  opacity: 0;
+  -webkit-transform: translateX(-50px);
+      -ms-transform: translateX(-50px);
+          transform: translateX(-50px);
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.schow-left-to-right.element-animation.element-schow {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.schow-right-to-left.element-animation {
+  opacity: 0;
+  -webkit-transform: translateX(50px);
+      -ms-transform: translateX(50px);
+          transform: translateX(50px);
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.schow-right-to-left.element-animation.element-schow {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+}
+
+.schow-scale.element-animation {
+  opacity: 0;
+  -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.schow-scale.element-animation.element-schow {
+  opacity: 1;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+.padding-0.element-animation {
+  padding: 0;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.padding-0.element-animation.element-schow {
+  padding: 5px;
+}
+
+@-webkit-keyframes services {
+  0% {
+    -webkit-transform: rotate(10deg) translateY(100%);
+            transform: rotate(10deg) translateY(100%);
+  }
+  50% {
+    -webkit-transform: rotate(10deg) translateY(0%);
+            transform: rotate(10deg) translateY(0%);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateY(0%);
+            transform: rotate(0deg) translateY(0%);
+  }
+}
+
+@keyframes services {
+  0% {
+    -webkit-transform: rotate(10deg) translateY(100%);
+            transform: rotate(10deg) translateY(100%);
+  }
+  50% {
+    -webkit-transform: rotate(10deg) translateY(0%);
+            transform: rotate(10deg) translateY(0%);
+  }
+  100% {
+    -webkit-transform: rotate(0deg) translateY(0%);
+            transform: rotate(0deg) translateY(0%);
+  }
+}
+@-webkit-keyframes servicesClose {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(0%);
+            transform: rotate(0deg) translateY(0%);
+  }
+  25% {
+    -webkit-transform: rotate(10deg) translateY(0%);
+            transform: rotate(10deg) translateY(0%);
+  }
+  50% {
+    -webkit-transform: rotate(5deg) translateY(0%);
+            transform: rotate(5deg) translateY(0%);
+  }
+  100% {
+    -webkit-transform: rotate(10deg) translateY(100%);
+            transform: rotate(10deg) translateY(100%);
+  }
+}
+@keyframes servicesClose {
+  0% {
+    -webkit-transform: rotate(0deg) translateY(0%);
+            transform: rotate(0deg) translateY(0%);
+  }
+  25% {
+    -webkit-transform: rotate(10deg) translateY(0%);
+            transform: rotate(10deg) translateY(0%);
+  }
+  50% {
+    -webkit-transform: rotate(5deg) translateY(0%);
+            transform: rotate(5deg) translateY(0%);
+  }
+  100% {
+    -webkit-transform: rotate(10deg) translateY(100%);
+            transform: rotate(10deg) translateY(100%);
+  }
+}
+.schow-top-animation {
+    opacity: 0;
+    transform: translateY(100px);
+    transition-property: all;
+    transition-duration: .5s;
+}
+.schow-top-animation.element-schow {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.half-turn-from-right-to-top {
+    transform: rotate(10deg) translateY(10px);
+    transform-origin: left top;
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+.half-turn-from-right-to-top.element-schow {
+    transform: rotate(0deg) translateY(10px);
+}

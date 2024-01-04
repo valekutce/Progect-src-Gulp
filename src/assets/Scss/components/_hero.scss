@@ -1,0 +1,25 @@
+.hero {
+    width: 100%;
+    height: calc(100vh - 53px);
+    max-height: 578px;
+}
+.hero__block {
+    width: 646px;
+    max-width: 100%;
+}
+
+.hero__title {
+    color: var(--main-text-color);
+    font-size: clamp(24px, 5vw, 34px);
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.hero__text {
+    color: #FFF;
+    font-size: clamp(16px, 5vw, 20px);
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}

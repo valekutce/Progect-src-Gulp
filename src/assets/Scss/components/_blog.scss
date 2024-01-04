@@ -1,0 +1,50 @@
+.blog {
+    padding: 60px 0px 100px;
+    background: var(--fon-2);
+}
+
+.blog__block {
+    position: relative;
+    height: 400px;
+    &:nth-child(odd) {
+        .blog__caption {
+            background: linear-gradient(270deg, #0A0805 0%, rgba(10, 8, 5, 0.66) 62.5%, rgba(10, 8, 5, 0.00) 100%);
+            right: 0;
+            text-align: right;
+            h3, p {
+                margin-left: auto;
+            }
+        }
+    }
+    &:nth-child(even) {
+        .blog__caption {
+            background: linear-gradient(-270deg, #0A0805 0%, rgba(10, 8, 5, 0.66) 62.5%, rgba(10, 8, 5, 0.00) 100%);
+            left: 0;
+            text-align: left;
+        }
+    }
+}
+.blog__caption {
+    position: absolute;  
+    top: 0;
+    bottom: 0;
+    padding: 20px;
+    text-decoration: none;
+    h3, p {
+        color: var(--main-text-color);
+    }
+    h3 {
+        font-size: clamp(20px, 4vw, 24px);
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: clamp(12px, 3vw, 14px);
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+}
+.mb-20 {
+}

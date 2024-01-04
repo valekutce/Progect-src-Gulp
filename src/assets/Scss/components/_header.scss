@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    background: var(--main-fon);
+    padding: 12px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__wrap {  
+    width: 100%;  
+    display: flex;
+    align-items: center;
+    .nav {
+        &:first-of-type {
+            max-width: 100%;
+            margin-right: 80px;
+            .menu-item {
+                &:first-child {
+                    margin-right: 45px;
+                }
+                &:not(:first-child) {
+                    margin-right: 24px;
+                }
+            }
+        }
+        &:last-child {
+            .menu-item {
+                margin-right: 24px;
+            }
+        }
+    }
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    a {
+        color: var(--main-text-color);
+        font-family: 'MV Boli';
+        font-size: 14px;
+        font-style: italic;
+        line-height: 154.545%;
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}
+.main-logo {
+    margin-right: 100px;
+}
