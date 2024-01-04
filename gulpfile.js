@@ -13,6 +13,7 @@ const sass = require('./task/sass');
 const img = require('./task/img');
 const font = require('./task/font');
 const video = require('./task/video');
+const lib = require('./task/lib');
 
 // Сервер 
 const server = () => {
@@ -32,6 +33,7 @@ const watcher = () => {
     watch(path.img.watch, img).on('all', browserSync.reload)
     watch(path.font.watch, font).on('all', browserSync.reload)
     watch(path.video.watch, video).on('all', browserSync.reload)
+    watch(path.lib.watch, lib).on('all', browserSync.reload);
 };
 
 
@@ -43,11 +45,13 @@ exports.sass = sass;
 exports.img = img;
 exports.font = font;
 exports.video = video;
+exports.lib = lib;
+
 
 
 // Сборка
 exports.dev = series(
     clear,
-    parallel(sass, css, js, html, img, font, video),
+    parallel(sass, css, js, html, img, font, video, lib),
     parallel(watcher, server)
 );

@@ -45,4 +45,9 @@ module.exports = {
         watch: pathSrc + "/assets/video/**",
         dist: pathDist + "/video"
     },
+    lib: {
+        src: pathSrc + "/assets/libs/**",
+        watch: pathSrc + "/assets/libs/**",
+        dist: pathDist + "/assets/libs"
+    },
 };

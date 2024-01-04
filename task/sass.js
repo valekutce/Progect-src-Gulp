@@ -10,7 +10,7 @@ const rename = require('gulp-rename');
 const size = require('gulp-size');
 const shorthand = require('gulp-shorthand');
 const sass = require('gulp-sass')(require('sass'));
-const webpcss = require('');
+const webpcss = require('gulp-webp-css');
 
 
 // Отбаботка cssgulp-webp-css
