@@ -216,7 +216,9 @@
 .mr-100 {
   margin-right: 100px;
 }
-
+.ml-10 {
+  margin-left: 10px;
+}
 .ml-20 {
   margin-left: 20px;
 }
@@ -483,6 +485,9 @@
 .a-i-end {
   align-items: end;
 }
+.a-i-bas {
+  align-items: baseline;
+}
 
 .f-w-w {
   flex-wrap: wrap;
@@ -512,6 +517,9 @@
 }
 .d-i {
   display: inline;
+}
+.d-n {
+  display: none;
 }
 
 /* color-text */
@@ -3304,6 +3312,19 @@ html {
   }
   .columns-4-1024 {
     column-count: 4;
+  }
+
+  .f-d-r-1024 {
+    flex-direction: row;
+  }
+  .f-d-c-1024 {
+    flex-direction: column;
+  }
+  .f-d-rr-1024 {
+    flex-direction: row-reverse;
+  }
+  .f-d-cr-1024 {
+    flex-direction: column-reverse;
   }
 
   .ch-b-10-1024 {
