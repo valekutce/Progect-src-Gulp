@@ -1,8 +1,10 @@
-@import "../Scss/components/fonts";
-@import "../Scss/components/var";
 @import "../Scss/components/normalize";
-@import "../Scss/components/classes";
-@import "../Scss/components/castoms";
+@import "../Scss/components/mixins";
+@import "../Scss/components/functions";
+@import "../Scss/components/var";
+@import "../Scss/components/fonts";
+@import "../Scss/components/utilit";
+@import "../Scss/components/globals";
 @import "../Scss/components/elements";
 @import "../Scss/components/header";
 @import "../Scss/components/hero";
