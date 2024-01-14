@@ -1,0 +1,9 @@
+@mixin fluid-text($min: 16, $max: 48) {
+    font-size: clamp(#{$min}px, #{$max / 1920 * 100}vw, #{$max}px);
+}
+
+@mixin container($width, $maxWidth) {
+    width: $width;
+    max-width: $maxWidth;
+    margin: auto;
+}

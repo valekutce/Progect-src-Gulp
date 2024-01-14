@@ -7,3 +7,35 @@ body {
     font-weight: normal;
     font-style: italic;
 }
+
+.title {
+    color: var(--main-text-color);
+    @include fluid-text(20, 33);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.btn {
+    color: var(--darck-text);
+    @include fluid-text(20, 33);
+    line-height: normal;
+    border-radius: 5px;
+    padding: 10px 20px 10px;
+    background: var(--btn-fon);
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s;
+    &:hover {
+        background: #adadad; 
+        box-shadow: none;
+    }
+}
+
+.container {
+   @include container(var(--container-width, --container-maxWidth));
+}
+
+.main-fon {
+    background: var(--main-fon);
+}
