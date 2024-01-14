@@ -6,7 +6,7 @@ module.exports = {
 
     html: {
         src: pathSrc + "/*.html",
-        watch: pathSrc + "/*.html",
+        watch: pathSrc + "/**/*.html",
         dist: pathDist
     },
 

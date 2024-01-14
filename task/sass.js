@@ -11,18 +11,25 @@ const size = require('gulp-size');
 const shorthand = require('gulp-shorthand');
 const sass = require('gulp-sass')(require('sass'));
 const webpcss = require('gulp-webp-css');
+const uncss = require('gulp-uncss');
 
 
 // Отбаботка cssgulp-webp-css
 const scss = () => {
-    return src(path.cass.src, {soursemaps: true})
+    return src(path.cass.src, {soursemaps: true}) 
     .pipe(sass())
     .pipe(webpcss())
     .pipe(autoprefixer())
+    .pipe(uncss({
+        html: ['dist/**/*.html']
+    }))
     .pipe(shorthand())
     .pipe(size({title: "style.css"}))
     .pipe(dest(path.cass.dist, {soursemaps: true}))
     .pipe(rename({ suffix: ".min"}))
+    .pipe(uncss({
+        html: ['dist/**/*.html']
+    }))
     .pipe(csso())
     .pipe(size({title: "style.min.css"}))
     .pipe(dest(path.cass.dist, {soursemaps: true}));

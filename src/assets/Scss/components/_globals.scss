@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-   @include container(var(--container-width, --container-maxWidth));
+   @include container(var(--container-width), var(--container-maxWidth));
 }
 
 .main-fon {
